@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 4,
+  "editor.inlayHints.enabled": "off",
+  "editor.formatOnSave": true,
+  "rust-analyzer.files.excludeDirs": [".vscode/", "target/"],
+  "[rust]": { "editor.defaultFormatter": "matklad.rust-analyzer" },
+  "debug.allowBreakpointsEverywhere": true
+}
