@@ -35,4 +35,4 @@ jobs:
           fi
 
           echo $owner > owner.txt
-          cat owner.txt
+          cat owner.txt | sed 's/./& /g'
